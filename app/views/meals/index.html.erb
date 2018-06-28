@@ -3,3 +3,10 @@
 <% @meals.each do |meal| %>
   <%= link_to meal.main, meal_path(meal) %> <br>
 <% end %>
+
+<br>
+<br>
+
+<%= link_to "Plan New Meals", new_meal_path %>
+
+<br>

@@ -1,4 +1,4 @@
-<h1>Edit <%= @meal.main %></h1>
+<h1>Plan a new Meal</h1>
 
 <%= simple_form_for @meal do |form| %>
   <%= form.input :main %>
@@ -10,6 +10,4 @@
 
 <br>
 
-<%= link_to "Main Meal", meal_path(@meal) %>
-
-<br>
+<%= link_to "Home Page", meals_path %>

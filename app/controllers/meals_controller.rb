@@ -2,7 +2,7 @@ class MealsController < ApplicationController
 
   #get /meals
   def index
-    @meals = Meal.new
+    @meals = Meal.all
   end
 
   #get /meals/show

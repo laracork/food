@@ -1,0 +1,5 @@
+<h1>Meal Ideas</h1>
+
+<% @meals.each do |meal| %>
+  <%= link_to meal.main, meal_path(meal) %> <br>
+<% end %>
